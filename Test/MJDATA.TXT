@@ -1,0 +1,453 @@
+MEMORY
+  total            13.2 MB
+  struct          159.1 KB
+  buffer            5.0 KB
+  arena            13.0 MB, used 0.2%
+
+SIZES
+  narena                13631488
+  nbuffer               5152
+  nplugin               0
+  maxuse_stack          1176
+  maxuse_arena          28828
+  maxuse_con            1
+  maxuse_efc            4
+  ncon                  1
+  ne                    0
+  nf                    0
+  nl                    0
+  nefc                  4
+  nJ                    24
+  nA                    0
+  nisland               1
+  nidof                 6
+  threadpool            0
+
+TIMER
+    0:  duration =  0.52       number = 8
+    1:  duration =  0.49       number = 8
+    2:  duration =  0          number = 0
+    3:  duration =  0.26       number = 8
+    4:  duration =  0.035      number = 8
+    5:  duration =  0          number = 0
+    6:  duration =  0.17       number = 8
+    7:  duration =  0.019      number = 8
+    8:  duration =  0.074      number = 8
+    9:  duration =  0.012      number = 8
+    10:  duration =  0.043      number = 8
+    11:  duration =  0.12       number = 8
+    12:  duration =  0.0015     number = 8
+    13:  duration =  0.022      number = 8
+    14:  duration =  0.018      number = 8
+
+SOLVER STAT
+  solver_fwdinv =   0         0       
+ENERGY =   0         0       
+
+TIME =  65      
+
+QPOS
+   0       
+   0       
+   0.1     
+   1       
+   0       
+   0       
+   0       
+
+QVEL
+   0       
+   0       
+  -3.9e-17 
+   0       
+   0       
+   0       
+
+QACC_WARMSTART
+   0       
+   0       
+  -1.8e-17 
+   0       
+   0       
+   0       
+
+QFRC_APPLIED
+   0       
+   0       
+   0       
+   0       
+   0       
+   0       
+
+XFRC_APPLIED
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+
+QACC
+   0       
+   0       
+  -1.8e-17 
+   0       
+   0       
+   0       
+
+XPOS
+   0         0         0       
+   0         0         0.1     
+
+XQUAT
+   1         0         0         0       
+   1         0         0         0       
+
+XMAT
+   1         0         0         0         1         0         0         0         1       
+   1         0         0         0         1         0         0         0         1       
+
+XIPOS
+   0         0         0       
+   0         0         0.1     
+
+XIMAT
+   1         0         0         0         1         0         0         0         1       
+   1         0         0         0         1         0         0         0         1       
+
+XANCHOR
+   0         0         0.1     
+
+XAXIS
+   0         0         1       
+
+GEOM_XPOS
+   0         0         0       
+   0         0         0.1     
+
+GEOM_XMAT
+   1         0         0         0         1         0         0         0         1       
+   1         0         0         0         1         0         0         0         1       
+
+LIGHT_XPOS
+   0         0         3       
+
+LIGHT_XDIR
+   0         0        -1       
+
+SUBTREE_COM
+   0         0         0.1     
+   0         0         0.1     
+
+CDOF
+   0         0         0         1         0         0       
+   0         0         0         0         1         0       
+   0         0         0         0         0         1       
+   1         0         0         0         0         0       
+   0         1         0         0         0         0       
+   0         0         1         0         0         0       
+
+CINERT
+   0         0         0         0         0         0         0         0         0         0       
+   0.017     0.017     0.017     0         0         0         0         0         0         4.2     
+
+CRB
+   0         0         0         0         0         0         0         0         0         0       
+   0.017     0.017     0.017     0         0         0         0         0         0         4.2     
+
+QM
+   4.2     
+   0         4.2     
+   0         0         4.2     
+   0         0         0         0.017   
+   0         0         0         0         0.017   
+   0         0         0         0         0         0.017   
+
+M
+     0:  4.2     
+     1:  4.2     
+     2:  4.2     
+     3:  0.017   
+     4:  0.017   
+     5:  0.017   
+
+QLD
+     0:  4.2     
+     1:  4.2     
+     2:  4.2     
+     3:  0.017   
+     4:  0.017   
+     5:  0.017   
+
+QLDIAGINV
+   0.24    
+   0.24    
+   0.24    
+   60      
+   60      
+   60      
+
+M: inertia structure
+--------
+ x      |
+  x     |
+   x    |
+    x   |
+     x  |
+      x |
+--------
+
+iM: block-diagonal inertia (nnzs are island ids)
+--------
+ 0      |
+  0     |
+   0    |
+    0   |
+     0  |
+      0 |
+--------
+
+CONTACT
+  0:
+     dim           3
+     geoms         0 : 1
+     exclude       0
+     efc_address   0
+     solref         0.02      1       
+     solimp         0.9       0.95      0.001     0.5       2       
+     dist          -0.00037 
+     includemargin  0       
+     pos            0         0        -0.00018 
+     frame          0         0         1         0         1         0        -1         0         0       
+     friction       1         1         0.005     0.0001    0.0001  
+     mu             1       
+     force          41        0         0         0         0         0       
+
+EFC_TYPE
+  6
+  6
+  6
+  6
+
+EFC_ID
+  0
+  0
+  0
+  0
+
+EFC_J
+   0         1         1         0.1       0         0       
+   0        -1         1        -0.1       0         0       
+  -1         0         1         0         0.1       0       
+   1         0         1         0        -0.1       0       
+
+IEFC_J
+   0         1         1         0.1       0         0       
+   0        -1         1        -0.1       0         0       
+  -1         0         1         0         0.1       0       
+   1         0         1         0        -0.1       0       
+
+EFC_POS
+  -0.00037 
+  -0.00037 
+  -0.00037 
+  -0.00037 
+
+EFC_MARGIN
+   0       
+   0       
+   0       
+   0       
+
+EFC_FRICTIONLOSS
+   0       
+   0       
+   0       
+   0       
+
+EFC_DIAGAPPROX
+   0.95    
+   0.95    
+   0.95    
+   0.95    
+
+EFC_KBIP
+   2.8e+03   1.1e+02   0.91     -73      
+   2.8e+03   1.1e+02   0.91     -73      
+   2.8e+03   1.1e+02   0.91     -73      
+   2.8e+03   1.1e+02   0.91     -73      
+
+EFC_D
+   11      
+   11      
+   11      
+   11      
+
+EFC_R
+   0.09    
+   0.09    
+   0.09    
+   0.09    
+
+CVEL
+   0         0         0         0         0         0       
+   0         0         0         0         0        -3.9e-17 
+
+CDOF_DOT
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+   0         0         0         0        -3.9e-17   0       
+   0         0         0         3.9e-17   0         0       
+   0         0         0         0         0         0       
+
+QFRC_BIAS
+   0       
+   0       
+   41      
+   0       
+   0       
+   0       
+
+QFRC_SPRING
+   0       
+   0       
+   0       
+   0       
+   0       
+   0       
+
+QFRC_DAMPER
+   0       
+   0       
+   0       
+   0       
+   0       
+   0       
+
+QFRC_GRAVCOMP
+   0       
+   0       
+   0       
+   0       
+   0       
+   0       
+
+QFRC_FLUID
+   0       
+   0       
+   0       
+   0       
+   0       
+   0       
+
+QFRC_PASSIVE
+   0       
+   0       
+   0       
+   0       
+   0       
+   0       
+
+EFC_VEL
+  -3.9e-17 
+  -3.9e-17 
+  -3.9e-17 
+  -3.9e-17 
+
+EFC_AREF
+   0.93    
+   0.93    
+   0.93    
+   0.93    
+
+SUBTREE_LINVEL
+   0         0         0       
+   0         0         0       
+
+SUBTREE_ANGMOM
+   0         0         0       
+   0         0         0       
+
+QFRC_ACTUATOR
+   0       
+   0       
+   0       
+   0       
+   0       
+   0       
+
+QFRC_SMOOTH
+   0       
+   0       
+  -41      
+   0       
+   0       
+   0       
+
+QACC_SMOOTH
+   0       
+   0       
+  -9.8     
+   0       
+   0       
+   0       
+
+EFC_B
+  -11      
+  -11      
+  -11      
+  -11      
+
+EFC_FORCE
+   10      
+   10      
+   10      
+   10      
+
+EFC_STATE
+  1
+  1
+  1
+  1
+
+QFRC_CONSTRAINT
+   0       
+   0       
+   41      
+   0       
+   0       
+   0       
+
+QFRC_INVERSE
+   0       
+   0       
+   0       
+   0       
+   0       
+   0       
+
+CACC
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+
+CFRC_INT
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+
+CFRC_EXT
+   0         0         0         0         0         0       
+   0         0         0         0         0         0       
+
+DOF_ISLAND            0 0 0 0 0 0
+
+ISLAND_NV             6
+
+ISLAND_IDOFADR        0
+
+MAP_IDOF2DOF          0 1 2 3 4 5
+
+EFC_ISLAND            0 0 0 0
+
+ISLAND_NEFC           4
+
+ISLAND_IEFCADR        0
+
+MAP_IEFC2EFC          0 1 2 3
+
